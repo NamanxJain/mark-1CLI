@@ -27,8 +27,10 @@ var questions = [
 function play(question,answer)
 {
     var userAnswer=readlineSync.question(question)
-    if(userAnswer.toLowerCase===answer.toLowerCase)
+
+    if(userAnswer.toLowerCase() === answer.toLowerCase())
     {
+
         console.log("right!");
         point=point+1;
     }
