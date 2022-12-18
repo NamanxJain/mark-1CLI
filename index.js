@@ -22,6 +22,18 @@ var questions = [
         question:"Who is Naman favourite character",
         answer:"Thomas Shelby"
     },
+    {
+        question:"Which is naman Favourite color",
+        answer:"Blue"
+    },
+    {
+        question:"Name of his Dog",
+        answer:"rocky"
+    },
+    {
+         question:"Name of his brother",
+         answer:"Shyam"
+    }
 ]
 
 function play(question,answer)
@@ -48,6 +60,12 @@ function game()
     }
 
     console.log("your Final score is "+point);
+    console.log("Correct answer are below =>");
+    for(var i=0;i<questions.length;i++)
+    {
+        console.log(`${questions[i].question} :  ${questions[i].answer}`)
+    }
+    
 }
 
 welcome();
