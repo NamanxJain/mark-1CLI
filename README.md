@@ -1,4 +1,4 @@
-# Subham's CLI-APP
+# Naman's CLI-APP
 
 ## My Quiz
 - A CLI app with some easy questions to quiz my friends on how well they know me.
